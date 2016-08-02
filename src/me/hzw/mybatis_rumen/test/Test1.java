@@ -13,6 +13,10 @@ public class Test1 {
 	public static void main(String[] args) {
 
 		String resource = "conf.xml";
+		
+		
+		
+		
 		InputStream is = Test1.class.getClassLoader().getResourceAsStream(
 				resource);
 		SqlSessionFactory sessionFactory = new SqlSessionFactoryBuilder()
